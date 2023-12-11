@@ -5,7 +5,6 @@ public class DivisaoEConquista {
         long inicio = System.currentTimeMillis();
 
         Arrays.sort(rotas);
-        System.out.println(Arrays.toString(rotas));
         int[] caminhoes = new int[numCaminhoes];
         List<Integer>[] rotasPorCaminhao = new ArrayList[numCaminhoes];
         for (int i = 0; i < numCaminhoes; i++) {
