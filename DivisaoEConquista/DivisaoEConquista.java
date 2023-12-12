@@ -1,4 +1,6 @@
 import java.util.*;
+
+
 public class DivisaoEConquista {
     public static void dvc(int[] rotas, int numCaminhoes) {
 
