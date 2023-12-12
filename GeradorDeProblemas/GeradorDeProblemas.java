@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 public class GeradorDeProblemas {
-    static Random aleatorio = new Random(42);
+    static Random aleatorio = new Random(42342);
     static final int TAM_BASE = 13;
 
     /**

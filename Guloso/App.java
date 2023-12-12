@@ -1,5 +1,4 @@
-package ProgramacaoDinamica;
-
+package Guloso;
 import GeradorDeProblemas.GeradorDeProblemas;
 
 import java.util.ArrayList;
@@ -12,7 +11,7 @@ public class App {
     public static void main(String[] args) {
         int trucksQuantity = 3;
         int routesQuantity = 15;
-        int setLength = 3;
+        int setLength = 6;
 
         List<List<Integer>>[] trucks = new ArrayList[trucksQuantity];
 
@@ -29,11 +28,10 @@ public class App {
 
         for (int[] routes : routesSet) {
 
-            
-            ProgramacaoDinamica.execute(routes, trucks);
+            Guloso.execute(trucks, routes);
 
             //change the routes set
-            ProgramacaoDinamica.turn++;
+            Guloso.time++;
         }
 
         long end = System.currentTimeMillis();
