@@ -12,38 +12,38 @@ public class Main {
         long tempo = 0;
         DivisaoEConquista dc = new DivisaoEConquista();
         
-        while(true){
+//        while(true){
+//
+//            long inicio = System.currentTimeMillis();
+//            List<int[]> conjuntos = GeradorDeProblemas.geracaoDeRotas(numRotas, tamanhoConjunto, dispersao);
+//            for(int[] rotas : conjuntos){
+//                System.out.println("Rotas geradas: " + Arrays.toString(rotas));
+//                dc.dvc(rotas,numCaminhoes);
+//
+//            }
+//            long fim = System.currentTimeMillis();
+//
+//            tempo += (fim - inicio);
+//
+//            numRotas++;
+//
+//            if(tempo >= 30000){
+//                System.out.println(tempo);
+//                System.out.println("Em 30 segundos, o algoritmo parou com o conjunto de rotas contendo " + numRotas + " rotas.");
+//                System.out.println("Tempo médio: " + numRotas / (tempo / 1000) + " rotas por segundo.");
+//                return;
+//            }
+//
+//
+//        }
 
-            long inicio = System.currentTimeMillis();
-            List<int[]> conjuntos = GeradorDeProblemas.geracaoDeRotas(numRotas, tamanhoConjunto, dispersao);
-            for(int[] rotas : conjuntos){
-                System.out.println("Rotas geradas: " + Arrays.toString(rotas));
-                dc.dvc(rotas,numCaminhoes);
-
-            }
-            long fim = System.currentTimeMillis();
-
-            tempo += (fim - inicio);
-
-            numRotas++;
-
-            if(tempo >= 30000){
-                System.out.println(tempo);
-                System.out.println("Em 30 segundos, o algoritmo parou com o conjunto de rotas contendo " + numRotas + " rotas.");
-                System.out.println("Tempo médio: " + numRotas / (tempo / 1000) + " rotas por segundo.");
-                return;
-            }
-
-
-        }
-
-        /*
+//
         int[] rotaTeste = {14, 16, 25, 15 , 23, 14};
         int[] rotaTeste2 = {14,23,22,18,16,15};
         int[] teste3 = {35, 34, 33, 23, 21, 32, 35, 19, 26, 42};
-        dc.distruirRotas(teste3, 3);
+        dc.dvc(teste3, 3);
         System.out.println(Arrays.toString(rotaTeste2));
-        */
+
     }
 
     /*
