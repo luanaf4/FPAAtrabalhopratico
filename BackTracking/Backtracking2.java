@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class Backtracking {
+public class Backtracking2 {
     private int numCaminhoes;
     private int[] rotas;
     private int[] caminhoes;
@@ -15,7 +15,7 @@ public class Backtracking {
     private int quilometragemIdeal;
 
 
-    public Backtracking(int numCaminhoes, int[] rotas) {
+    public Backtracking2(int numCaminhoes, int[] rotas) {
         this.numCaminhoes = numCaminhoes;
         this.rotas = rotas;
         this.caminhoes = new int[numCaminhoes];
@@ -61,9 +61,9 @@ public class Backtracking {
 
 //    public static void main(String[] args) {
 //        int numCaminhoes = 3;
-//        int[] rotas = {40, 36, 38, 29, 32, 28, 31, 35, 31, 30, 32, 30, 29, 39, 35, 38, 39, 35, 32, 38, 32, 33, 29, 33, 29, 39, 28};
+//        int[] rotas = {40,36,38,29,32,28,31,35,31,30,32,30,29,39,35,38,39,35,32,38,32,33,29,33,29,39,28};
 //
-//        Backtracking backtracking = new Backtracking(numCaminhoes, rotas);
+//        Backtracking2 backtracking = new Backtracking2(numCaminhoes, rotas);
 //        backtracking.distribuirRotas();
 //
 //        System.out.println("Melhor distribuição: " + Arrays.toString(backtracking.melhorDistribuicao));
@@ -78,16 +78,16 @@ public class Backtracking {
 //            System.out.println();
 //        }
 //    }
-//}
 
 
 //    Conjunto de rotas 2: 32;51;32;43;42;30;42;51;43;51;29;25;27;32;29;55;43;29;32;44;55;29;53;30;24;27
 
 
+//
 //    public static void main(String[] args) {
 //        int numCaminhoes = 3;
-//        int[] rotas = {32, 51, 32, 43, 42, 30, 42, 51, 43, 51, 29, 25, 27, 32, 29, 55, 43, 29, 32, 44, 55, 29, 53, 30, 24, 27};
-//        Backtracking backtracking = new Backtracking(numCaminhoes, rotas);
+//        int[] rotas = {32,51,32,43,42,30,42,51,43,51,29,25,27,32,29,55,43,29,32,44,55,29,53,30,24,27};
+//        Backtracking2 backtracking = new Backtracking2(numCaminhoes, rotas);
 //        backtracking.distribuirRotas();
 //
 //        System.out.println("Melhor distribuição: " + Arrays.toString(backtracking.melhorDistribuicao));
@@ -102,7 +102,6 @@ public class Backtracking {
 //            System.out.println();
 //        }
 //    }
-//}
 
 
 // Utilizando o código do gerador de problemas
@@ -122,7 +121,7 @@ public class Backtracking {
 
             for (int[] rotas : conjuntosDeTeste) {
                 Instant start = Instant.now();
-                Backtracking backtracking = new Backtracking(numCaminhoes, rotas);
+                Backtracking2 backtracking = new Backtracking2(numCaminhoes, rotas);
                 backtracking.distribuirRotas();
                 Instant end = Instant.now();
                 Duration duration = Duration.between(start, end);
