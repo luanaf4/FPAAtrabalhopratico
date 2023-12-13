@@ -9,13 +9,14 @@ public class ProgramacaoDinamica {
 
     public static void execute(int[] routes, List<List<Integer>>[] trucks){
 
-        int[][] memoryTable = new int[routes.length][trucks.length];
+        int[][] memoryTable = new int[routes.length][trucks[0].size()];
 
         //filling the table with invalid values
         for (int[] row : memoryTable) {
             Arrays.fill(row, -1);
         }
 
+        Arrays.sort(routes);
         ProgramacaoDinamica.distributeRoutes(routes, routes.length - 1, trucks, memoryTable);
 
     }
