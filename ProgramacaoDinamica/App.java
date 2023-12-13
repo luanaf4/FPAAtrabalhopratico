@@ -13,7 +13,7 @@ public class App {
 
         //Valores encontrados no algoritmo de backtracking
         int trucksQuantity = 3;
-        int routesQuantity = 100;
+        int routesQuantity = 22;
         int setLength = 10;
         long totalTime = 0;
 
