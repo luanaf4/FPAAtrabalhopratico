@@ -2,11 +2,11 @@
 
 # Informações
 
-Critério de avaliação escolhido: Individual
+Critério de avaliação escolhido: **Individual**
 
 Linguagem de programação: Java
 
-Algoritmos implementados: Divisão e Conquista, Backtracking e Programação Dinâmica
+Algoritmos implementados: Backtracking, Divisão e Conquista e Programação Dinâmica
 
 ## Divisão de tarefas
 
