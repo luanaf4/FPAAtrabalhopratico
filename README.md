@@ -14,5 +14,8 @@ Algoritmos implementados: Backtracking, Divisão e Conquista e Programação Din
 | Integrante | Tarefas executadas |
 |------------|-------------------|
 | Gabriel   | Implementação do método de Divisão e Conquista <br> Elaboração da seção Divisão e Conquista do relatório <br> Participação na seção de Comparação |
-| Luana      | Implementação do método de Backtracking <br> Elaboração das seções Backtracking e Informações <br> Participação na seção de Comparação |
+| Luana      | Implementação do método de Backtracking
+Elaboração das seções Backtracking, Informações, Comparação entre Métodos e Considerações Finais
+Participação na seção de Comparação
+ |
 | Vinicius    | Implementação do método de Programação Dinâmica <br> Elaboração da seção Programação Dinâmica <br> Participação na seção de Comparação |
