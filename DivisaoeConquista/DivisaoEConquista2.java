@@ -29,10 +29,11 @@ public class DivisaoEConquista2 {
         return rotas;
     }
     public static void main(String[] args) {
-        // Gera uma lista de arrays de inteiros para teste
-        List<int[]> conjuntosDeTeste = GeradorDeProblemas.geracaoDeRotas(6,10,0.5);
+        int qtdRotas = 6;
 
-        // Processa cada caso de teste
+        List<int[]> conjuntosDeTeste = GeradorDeProblemas.geracaoDeRotas(qtdRotas,10,0.5);
+
+
         for (int[] rotas : conjuntosDeTeste) {
             System.out.println("Testando rotas: " + Arrays.toString(rotas));
 
