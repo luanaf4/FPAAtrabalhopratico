@@ -9,6 +9,9 @@ Linguagem de programação: Java
 Algoritmos implementados: Backtracking, Divisão e Conquista e Programação Dinâmica
 
 
+# O relatório técnico se encontra na pasta RelatorioTecnico em pdf
+
+
 ## Divisão de tarefas
 
 | Integrante | Tarefas executadas |
